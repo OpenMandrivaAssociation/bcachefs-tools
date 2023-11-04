@@ -12,6 +12,15 @@ Summary: Tools for working with the bcachefs filesystem
 URL: https://bcachefs.org/
 License: GPL-2.0
 Group: System
+BuildRequires: pkgconfig(blkid)
+BuildRequires: pkgconfig(uuid)
+BuildRequires: pkgconfig(liburcu)
+BuildRequires: pkgconfig(libsodium)
+BuildRequires: pkgconfig(zlib)
+BuildRequires: pkgconfig(liblz4)
+BuildRequires: pkgconfig(libzstd)
+BuildRequires: pkgconfig(libudev)
+BuildRequires: pkgconfig(libkeyutils)
 
 %description
 Tools for working with the bcachefs filesystem
