@@ -21,6 +21,7 @@ BuildRequires: pkgconfig(liblz4)
 BuildRequires: pkgconfig(libzstd)
 BuildRequires: pkgconfig(libudev)
 BuildRequires: pkgconfig(libkeyutils)
+BuildRequires: libaio-devel
 
 %description
 Tools for working with the bcachefs filesystem
