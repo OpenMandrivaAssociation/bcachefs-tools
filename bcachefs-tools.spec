@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name: bcachefs-tools
-Version: 1.3.1
+Version: 1.20.0
 Release: 1
 # repository: https://evilpiepirate.org/git/bcachefs-tools.git
 Source0: https://github.com/koverstreet/bcachefs-tools/archive/refs/tags/v%{version}.tar.gz
