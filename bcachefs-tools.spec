@@ -4,7 +4,7 @@ Name: bcachefs-tools
 Version: 1.20.0
 Release: 1
 # repository: https://evilpiepirate.org/git/bcachefs-tools.git
-Source0: https://github.com/koverstreet/bcachefs-tools/archive/refs/tags/v%{version}.tar.gz
+Source0: https://github.com/koverstreet/bcachefs-tools/archive/v%{version}/%{name}-%{version}.tar.gz
 # Official download location
 #Source0: https://evilpiepirate.org/bcachefs-tools/bcachefs-tools-%{version}.tar.zst
 # Not using this right now because of https://github.com/koverstreet/bcachefs-tools/issues/170
